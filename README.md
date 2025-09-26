@@ -37,3 +37,29 @@ The Multi-Lingua Emotion Aware Translation System is an intelligent multilingual
 🧐 Sarcasm Detection: A rule-based sarcasm detection system ensures contextually accurate translations.
 
 This system bridges the gap between linguistic accuracy and emotional intelligence, making conversations more natural, expressive, and human-like.
+
+---
+
+### 2️⃣ Project Architecture
+
+The system is designed as a modular pipeline with clearly defined components:
+
+flowchart TD
+    A[Input Text / Speech] --> B[Language Detection]
+    B --> C[Translation Engine]
+    C --> D[Emotion Recognition Module]
+    D --> E[Sarcasm Detection Rules]
+    E --> F[Emotion-Matched Text-to-Speech]
+    F --> G[Output in Target Language]
+
+🔧 Components
+
+Language Detection: Identifies source language among 30 supported ones.
+
+Translation Engine: Handles multilingual translation tasks.
+
+Emotion Recognition: Detects emotions (happy, sad, angry, neutral, etc.) from text/speech.
+
+Sarcasm Detection: Rule-based approach for refining contextual meaning.
+
+Speech Synthesis: Produces emotion-aware speech output.
