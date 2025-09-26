@@ -28,7 +28,7 @@ The **Multi-Lingua Emotion Aware Translation System** is an intelligent translat
 
 The Multi-Lingua Emotion Aware Translation System is an intelligent multilingual translation platform that not only translates text across 30 languages (including the top 20 Indian and top 10 global languages) but also integrates emotion awareness for richer communication.
 
-*✨ Key Highlights:
+* ✨ Key Highlights:
 
   * 🌐 Multilingual Translation: Seamless translation across 30 languages.
 
