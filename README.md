@@ -63,3 +63,32 @@ Emotion Recognition: Detects emotions (happy, sad, angry, neutral, etc.) from te
 Sarcasm Detection: Rule-based approach for refining contextual meaning.
 
 Speech Synthesis: Produces emotion-aware speech output.
+
+---
+
+### 3️⃣ Dataset and Preprocessing
+
+This project does not rely on a single fixed dataset but instead integrates dynamic input processing for text and speech:
+
+* Text Input:
+
+  * Language is auto-detected using deep-translator (GoogleTranslator).
+  * Input text is preprocessed by converting to lowercase and stripping whitespace.
+
+* Emotion Detection:
+
+  * Handled using NRCLex, which assigns probabilities to emotions such as joy, anger, sadness, trust, anticipation, fear, surprise, disgust.
+  * A threshold-based filter avoids false positives.
+
+* Sarcasm Detection:
+
+  * Uses a rule-based keyword spotting approach for common sarcastic cues in English, Hindi, and Hinglish (e.g., “wah”, “great”, “oh really”).
+
+* Speech Input:
+
+  * Audio is transcribed with OpenAI Whisper (small model).
+
+Preprocessing ensures non-empty audio streams are converted into plain text before translation and emotion analysis.
+
+---
+
