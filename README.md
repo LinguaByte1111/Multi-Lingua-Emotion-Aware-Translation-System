@@ -92,3 +92,34 @@ Preprocessing ensures non-empty audio streams are converted into plain text befo
 
 ---
 
+### 4️⃣ Exploratory Data Analysis (EDA)
+
+Unlike traditional ML projects with fixed datasets, this system relies on real-time inputs. EDA here focuses on testing and validating outputs from integrated modules:
+
+🔍 Text Translation Analysis:
+
+  * Verified translation accuracy across 30 supported languages (20 Indian + 10 global).
+  * Checked robustness for mixed-language sentences (e.g., Hinglish).
+
+🎭 Emotion Detection Analysis:
+
+  * Sample sentences were tested to observe distribution of emotion scores using NRCLex.
+  * Thresholding helped reduce noise (e.g., sentences wrongly classified with multiple low-confidence emotions).
+
+#### Example:
+
+* Input: “I can’t believe this happened, wow great…”
+
+  Detected Emotion: Disgust / Anger
+  Sarcasm flag: Triggered
+
+#### 🧐 Sarcasm Detection Checks
+
+* Tested with sarcastic phrases in English, Hindi, and Hinglish.
+* Keywords like “wah”, “oh really”, “yeah right”, “kya baat hai” successfully triggered sarcasm detection.
+
+#### 🎤 Speech Processing
+
+* Evaluated Whisper model for speech-to-text on English and Hindi recordings.
+* Checked transcription accuracy for noisy vs. clean audio.
+* Validated conversion to text before translation and emotion classification.
