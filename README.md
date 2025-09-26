@@ -8,8 +8,4 @@ The **Multi-Lingua Emotion Aware Translation System** is an intelligent translat
 - 🌐 Translation across 30 languages  
 - 😃 Emotion recognition with emotion-matched text-to-speech  
 - 🧐 Rule-based sarcasm detection for better contextual understanding
-
-
 ---
-
-For inquiries or collaboration opportunities, feel free to reach out.
