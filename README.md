@@ -24,7 +24,7 @@ The **Multi-Lingua Emotion Aware Translation System** is an intelligent translat
 
 ---
 
-### 1️⃣ About the Project
+### 1 About the Project
 
 The Multi-Lingua Emotion Aware Translation System is an intelligent multilingual translation platform that not only translates text across 30 languages (including the top 20 Indian and top 10 global languages) but also integrates emotion awareness for richer communication.
 
@@ -40,7 +40,7 @@ This system bridges the gap between linguistic accuracy and emotional intelligen
 
 ---
 
-### 2️⃣ Project Architecture
+### 2 Project Architecture
 
 The system is designed as a modular pipeline with clearly defined components:
 
@@ -66,7 +66,7 @@ Speech Synthesis: Produces emotion-aware speech output.
 
 ---
 
-### 3️⃣ Dataset and Preprocessing
+### 3 Dataset and Preprocessing
 
 This project does not rely on a single fixed dataset but instead integrates dynamic input processing for text and speech:
 
@@ -92,7 +92,7 @@ Preprocessing ensures non-empty audio streams are converted into plain text befo
 
 ---
 
-### 4️⃣ Exploratory Data Analysis (EDA)
+### 4 Exploratory Data Analysis (EDA)
 
 Unlike traditional ML projects with fixed datasets, this system relies on real-time inputs. EDA here focuses on testing and validating outputs from integrated modules:
 
@@ -126,7 +126,7 @@ Unlike traditional ML projects with fixed datasets, this system relies on real-t
 
 ---
 
-### 5️⃣ Model Development
+### 5 Model Development
 
 The system integrates multiple AI models and rule-based modules, each optimized for multilingual, emotion-aware translation.
 
@@ -161,7 +161,7 @@ The system integrates multiple AI models and rule-based modules, each optimized 
 
 ---
 
-### 6️⃣ Emotion Recognition Models
+### 6 Emotion Recognition Models
 
 The emotion recognition module ensures translations are not only linguistically accurate but also emotionally expressive.
 
@@ -193,3 +193,24 @@ This allows the system to mimic emotional context in spoken translations, making
 
 ---
 
+### 7 Gesture Recognition Model
+
+Although the primary focus of this project is multilingual emotion-aware translation, gesture recognition is introduced as an extension for multimodal interaction.
+
+#### 🎥 Purpose
+
+* Enhances communication by linking physical gestures with emotional context.
+* Useful in scenarios like video calls, presentations, or accessibility tools.
+
+#### 🧩 Implementation (Planned / Extendable)
+
+* Designed as a modular plug-in component to be integrated with the existing pipeline.
+* Can leverage libraries like MediaPipe or OpenCV for gesture detection.
+* Gestures such as:
+  * 👍 Thumbs up → Positive emotion
+  * 👎 Thumbs down → Negative emotion
+  * ✋ Hand raise → Attention / Questioning
+  * 👏 Clapping → Joy / Appreciation
+  * 🔗 Integration with Emotion-Aware Translation
+* Recognized gestures are mapped to emotion signals, influencing text-to-speech output.
+* Example: A “thumbs up” gesture + neutral text → Translated speech with a positive/joyful tone.
