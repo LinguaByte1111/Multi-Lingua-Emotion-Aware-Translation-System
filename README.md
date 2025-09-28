@@ -339,3 +339,38 @@ Note: The frontend will be available at: http://localhost:5173
 * Text Translation → Enter text, select target language, and get emotion-aware translation + speech.
 * Speech-to-Text → Upload an audio file, which is transcribed, translated, and analyzed for emotions.
 * Speech-to-Speech → Direct end-to-end speech translation with emotion-matched output.
+
+---
+
+### 11 Dependencies
+
+The project relies on both Python (backend) and JavaScript (frontend) dependencies.
+
+#### 🐍 Backend (Python) 
+
+* FastAPI → Web API framework
+* Uvicorn → ASGI server
+* python-multipart → File uploads support
+* openai-whisper → Speech-to-text model
+* deep-translator → Multilingual translation
+* nrclex → Emotion recognition from text
+* edge-tts → Emotion-aware text-to-speech
+* gTTS (fallback in main.py) → Google TTS for neutral speech
+* python-dotenv → Environment variable handling
+* requests → HTTP requests
+
+#### ⚛️ Frontend (JavaScript) 
+
+* React 18 → UI framework
+* React-DOM → DOM rendering for React
+* Vite → Development/build tool
+* TailwindCSS → Utility-first CSS framework
+* PostCSS & Autoprefixer → CSS transformations & browser compatibility
+
+#### 🔧 Dev Tools
+
+* Virtual environment (venv) for Python
+* Node.js (>=18) & npm for frontend
+
+---
+
