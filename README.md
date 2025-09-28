@@ -321,3 +321,21 @@ Note: The backend will be available at: http://127.0.0.1:8000
 ```bash
 cd frontend
 ```
+
+##### 2 Install dependencies:
+```bash
+npm install
+```
+
+##### 3 Run the development server:
+```bash
+npm run dev
+```
+
+Note: The frontend will be available at: http://localhost:5173
+
+#### 🔗 Using the Application
+
+* Text Translation → Enter text, select target language, and get emotion-aware translation + speech.
+* Speech-to-Text → Upload an audio file, which is transcribed, translated, and analyzed for emotions.
+* Speech-to-Speech → Direct end-to-end speech translation with emotion-matched output.
