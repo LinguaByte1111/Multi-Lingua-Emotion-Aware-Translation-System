@@ -306,3 +306,10 @@ venv\Scripts\activate      # Windows
 ```bash
 pip install -r requirements.txt
 ```
+
+##### 4 Run the FastAPI server:
+```bash
+uvicorn main:app --reload
+```
+
+Note: The backend will be available at: http://127.0.0.1:8000
