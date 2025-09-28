@@ -283,3 +283,7 @@ The repository is structured into backend (FastAPI) and frontend (React + Tailwi
 
 ---
 
+```bash
+git clone https://github.com/LinguaByte1111/Multi-Lingua-Emotion-Aware-Translation-System.git
+cd multi-lingua-emotion-aware-translation
+```
