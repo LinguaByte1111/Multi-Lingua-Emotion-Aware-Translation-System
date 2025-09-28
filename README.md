@@ -160,3 +160,36 @@ The system integrates multiple AI models and rule-based modules, each optimized 
 * Fallback: gTTS (neutral tone) if edge-tts fails.
 
 ---
+
+### 6️⃣ Emotion Recognition Models
+
+The emotion recognition module ensures translations are not only linguistically accurate but also emotionally expressive.
+
+#### 📝 Text Emotion Recognition
+
+* Implemented with NRCLex.
+* Analyzes text and assigns probabilities to emotions:
+  * Joy, Anger, Sadness, Trust, Anticipation, Fear, Surprise, Disgust.
+* Uses a thresholding mechanism to avoid false or low-confidence classifications.
+* Default fallback: Neutral if no strong emotion is detected.
+
+#### 🎤 Speech Emotion Recognition
+
+* Speech is first transcribed via Whisper → converted to text.
+* Transcribed text is passed through the NRCLex emotion model.
+* Same emotion mapping rules are applied as in text-based detection.
+
+#### 🎛 Emotion-to-Speech Mapping
+
+* Detected emotions are mapped to TTS voices and tones:
+  * Joy/Happy → Brighter, faster voice
+  * Sad/Sadness → Slower, softer voice
+  * Anger → Stronger, sharper tone
+  * Disgust → Slightly harsh tone
+  * Surprise → High pitch, excited
+  * Neutral → Calm, balanced tone
+
+This allows the system to mimic emotional context in spoken translations, making the output more natural and human-like.
+
+---
+
