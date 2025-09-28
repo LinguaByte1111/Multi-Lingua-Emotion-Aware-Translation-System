@@ -7,7 +7,7 @@ The **Multi-Lingua Emotion Aware Translation System** is an intelligent translat
 
 ## 🔍 Table of Contents
 
-* [About the Project](#About-the-Project)
+* [About the Project](#1-About-the-Project)
 * [Project Architecture](#Project-Architecture)
 * [Dataset and Preprocessing](#dataset-and-preprocessing)
 * [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
