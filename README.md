@@ -9,18 +9,17 @@ The **Multi-Lingua Emotion Aware Translation System** is an intelligent translat
 
 * [About the Project](#1-About-the-Project)
 * [Project Architecture](#2-Project-Architecture)
-* [Dataset and Preprocessing](#dataset-and-preprocessing)
-* [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-* [Model Development](#model-development)
-
-  * [Emotion Recognition Models](#emotion-recognition-models)
-  * [Gesture Recognition Model](#gesture-recognition-model)
-* [Performance](#performance)
-* [Code Overview](#code-overview)
-* [How to Run](#how-to-run)
-* [Dependencies](#dependencies)
+* [Dataset and Preprocessing](#3-dataset-and-preprocessing)
+* [Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
+* [Model Development](#5-model-development)
+* [Emotion Recognition Models](#6-emotion-recognition-models)
+* [Gesture Recognition Model](#7-gesture-recognition-model)
+* [Performance](#8-performance)
+* [Code Overview](#9-code-overview)
+* [How to Run](#10-how-to-run)
+* [Dependencies](#11-dependencies)
 * [License](#license)
-* [Contribution](#Contribution)
+* [Contribution](#13-Contribution)
 
 ---
 
