@@ -374,3 +374,40 @@ The project relies on both Python (backend) and JavaScript (frontend) dependenci
 
 ---
 
+### 13 Contribution
+This project has been entirely designed, developed, and implemented by me 💡✨.
+All modules translation, emotion recognition, sarcasm detection, speech processing, and the frontend were built from scratch as part of this work.
+
+That said, contributions are always welcome to make the system even better 🚀
+
+#### 🤝 How to Contribute
+
+Fork the repository.
+Create a new branch:
+```bash
+git checkout -b feature/your-feature-name
+```
+
+Make your changes and commit:
+```bash
+git commit -m "Add your message here"
+```
+
+Push to your fork:
+```bash
+git push origin feature/your-feature-name
+```
+
+Open a Pull Request (PR) with a clear description of your changes.
+
+🧩 Contribution Ideas
+
+Add support for more languages.
+
+Improve sarcasm detection rules (esp. Hinglish/mixed languages).
+
+Extend gesture recognition with MediaPipe/OpenCV.
+
+Optimize latency & performance for real-time scenarios.
+
+Enhance frontend UI/UX with advanced audio-visual features.
