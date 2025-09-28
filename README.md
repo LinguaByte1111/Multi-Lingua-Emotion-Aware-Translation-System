@@ -123,3 +123,40 @@ Unlike traditional ML projects with fixed datasets, this system relies on real-t
 * Evaluated Whisper model for speech-to-text on English and Hindi recordings.
 * Checked transcription accuracy for noisy vs. clean audio.
 * Validated conversion to text before translation and emotion classification.
+
+---
+
+### 5️⃣ Model Development
+
+The system integrates multiple AI models and rule-based modules, each optimized for multilingual, emotion-aware translation.
+
+#### Translation Engine
+
+* Built using deep-translator (GoogleTranslator) for seamless multilingual translation.
+* Supports 30 languages (20 Indian + 10 global).
+* Automatically detects the source language.
+
+#### 🎭 Emotion Recognition Models
+
+* NRCLex used for text-based emotion recognition.
+* Outputs probabilities for emotions → joy, anger, sadness, trust, anticipation, fear, surprise, disgust.
+* Confidence threshold applied to reduce false positives.
+
+#### 🧐 Sarcasm Detection Model
+
+* Rule-based system for sarcasm detection.
+* Works across English, Hindi, and Hinglish by spotting keywords/phrases like “wah”, “great”, “oh really”.
+
+#### 🎤 Speech-to-Text Model
+
+* Uses OpenAI Whisper (small model) for transcribing audio.
+* Handles multiple languages, including Hindi and English.
+* Robust against noisy audio inputs.
+
+#### 🔊 Text-to-Speech (TTS) Model
+
+* Primary: edge-tts with emotion-aware voice synthesis.
+* Emotion mapped to voices (e.g., Joy → brighter tone, Sad → slower softer tone).
+* Fallback: gTTS (neutral tone) if edge-tts fails.
+
+---
