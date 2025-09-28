@@ -247,3 +247,36 @@ The system’s performance was evaluated across translation accuracy, emotion de
 
 * Average response time: 2–3 seconds per request (including translation, emotion analysis, and TTS).
 * Optimized with modular pipeline design for scalability.
+
+---
+
+### 9 Code Overview
+
+The repository is structured into backend (FastAPI) and frontend (React + Tailwind + Vite).
+
+#### 📂 Backend (main.py)
+
+* Built with FastAPI 
+* Core endpoints:
+  * /translate → Text translation + emotion & sarcasm detection
+  * /speech-to-text → Converts uploaded speech to text (via Whisper)
+  * /tts → Text-to-speech with emotion-aware synthesis (edge-tts / gTTS fallback)
+  * /speech-to-speech → End-to-end speech translation with synthesized output
+* Key libraries:
+  * deep-translator → Multilingual translation
+  * nrclex → Emotion detection
+  * openai-whisper → Speech-to-text
+  * edge-tts & gTTS → Speech synthesis
+  * fastapi, uvicorn → Web API framework 
+
+#### 🎨 Frontend (translation-frontend)
+
+* Built with React (18) + Vite + Tailwind CSS 
+* Provides an interactive UI for text input, speech upload, and translated/emotion-aware output.
+* PostCSS & Autoprefixer used for styling support 
+
+📑 Config Files
+
+* requirements.txt → Backend dependencies 
+* package.json → Frontend dependencies & scripts 
+* tailwind.config.js & postcss.config.js → Styling configurations 
