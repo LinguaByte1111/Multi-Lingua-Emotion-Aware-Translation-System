@@ -402,12 +402,10 @@ Open a Pull Request (PR) with a clear description of your changes.
 
 🧩 Contribution Ideas
 
-Add support for more languages.
+* Add support for more languages.
+* Improve sarcasm detection rules (esp. Hinglish/mixed languages).
+* Extend gesture recognition with MediaPipe/OpenCV.
+* Optimize latency & performance for real-time scenarios.
+* Enhance frontend UI/UX with advanced audio-visual features.
 
-Improve sarcasm detection rules (esp. Hinglish/mixed languages).
-
-Extend gesture recognition with MediaPipe/OpenCV.
-
-Optimize latency & performance for real-time scenarios.
-
-Enhance frontend UI/UX with advanced audio-visual features.
+---
