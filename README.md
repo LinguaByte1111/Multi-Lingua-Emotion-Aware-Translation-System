@@ -283,6 +283,13 @@ The repository is structured into backend (FastAPI) and frontend (React + Tailwi
 
 ---
 
+### 10 How to Run
+
+You can run the system locally in two parts: Backend (FastAPI) and Frontend (React + Vite).
+
+#### ⚙️ Backend Setup (FastAPI)
+
+##### 1. Clone the repository:
 ```bash
 git clone https://github.com/LinguaByte1111/Multi-Lingua-Emotion-Aware-Translation-System.git
 cd multi-lingua-emotion-aware-translation
