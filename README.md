@@ -280,3 +280,6 @@ The repository is structured into backend (FastAPI) and frontend (React + Tailwi
 * requirements.txt → Backend dependencies 
 * package.json → Frontend dependencies & scripts 
 * tailwind.config.js & postcss.config.js → Styling configurations 
+
+---
+
