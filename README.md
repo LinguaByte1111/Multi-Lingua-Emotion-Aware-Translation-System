@@ -297,6 +297,7 @@ cd multi-lingua-emotion-aware-translation
 
 ##### 2 Create and activate a virtual environment:
 ```bash
+cd backend
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
@@ -313,3 +314,10 @@ uvicorn main:app --reload
 ```
 
 Note: The backend will be available at: http://127.0.0.1:8000
+
+#### 🎨 Frontend Setup (React + Vite)
+
+##### 1 Navigate to the frontend directory:
+```bash
+cd frontend
+```
